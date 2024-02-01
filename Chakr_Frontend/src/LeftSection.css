@@ -1,0 +1,74 @@
+
+.left-section {
+  width: 200px;
+  height: auto; 
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 0px;
+}
+
+.menu-item{
+  margin: 10px;
+
+
+}
+
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile img {
+  width: 40px; 
+  height: 40px; 
+  border-radius: 50%;
+  margin-right: 10px; 
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown{
+  margin-right: 5px;
+  margin-left: 25px;
+}
+
+.username {
+  font-size: 14px; 
+  margin-bottom: 5px; 
+}
+
+.designation {
+  font-size: 12px;
+}
+
+
+.actions {
+  display: flex;
+  flex-direction: column;
+}
+
+.actions > div {
+  margin-top: 5px;
+}
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+
+

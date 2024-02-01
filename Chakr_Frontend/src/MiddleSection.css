@@ -1,0 +1,117 @@
+.middle-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.card {
+  width: 60%;
+  background: linear-gradient(to right, #87CEFA, #98FB98);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  flex:1;
+}
+
+.customer-list-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.customer-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  transition: background-color 0.3s; 
+}
+
+.customer-card:hover {
+  background-color: #f0f0f0;
+}
+
+.customer-info-container {
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.customer-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.customer-name {
+  font-weight: bold;
+}
+
+.customer-designation {
+  color: #555;
+}
+
+.icons-container {
+  display: none;
+}
+
+.customer-card:hover .icons-container {
+  display: flex;
+}
+
+.icon {
+  margin-left: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.second-card {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px; 
+}
+
+.growth-section {
+  padding: 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.static-growth-graph {
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+  padding: 20px;
+}
+
+.mini-cards-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.mini-card {
+  flex: 0 0 (30% -20px);
+  margin: 15px;
+
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+  flex-direction: column;
+}
+
+.mini-card:hover {
+  background-color: #f0f0f0;
+}
+
+.mini-card span {
+  display: block;
+}
